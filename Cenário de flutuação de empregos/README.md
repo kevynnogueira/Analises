@@ -1,6 +1,6 @@
 ### Cenário de flutuação de empregos formais no Brasil
 
-Essa análise é resultado do desafio 19 do [#5dataglowup](https://www.linkedin.com/feed/hashtag/?keywords=5dataglowup&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7087552037063655424) proposto pelo [Heitor Sasaki](https://www.linkedin.com/in/heitorsasaki/) utilizando dados do Programa de Disseminação das Estatisticas do Trabalho.
+Essa análise é resultado do 19o desafio [#5dataglowup](https://www.linkedin.com/feed/hashtag/?keywords=5dataglowup&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7087552037063655424) proposto pelo [Heitor Sasaki](https://www.linkedin.com/in/heitorsasaki/) utilizando dados do Programa de Disseminação das Estatisticas do Trabalho.
 
 #### Resultado da análise:
 O Sistema do Cadastro Geral de Empregados e Desempregados, CAGED, é uma importante fonte de estatísticas do emprego formal (ou seja, aqueles com carteira assinada) no Brasil.
