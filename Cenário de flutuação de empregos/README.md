@@ -5,10 +5,9 @@ Essa análise é resultado do 19o desafio [#5dataglowup](https://www.linkedin.co
 #### Análise:
 O Sistema do Cadastro Geral de Empregados e Desempregados, CAGED, é uma importante fonte de estatísticas do emprego formal (ou seja, aqueles com carteira assinada) no Brasil.
 
-Para o governo, serve para fiscalizar o cumprimento de obrigações trabalhistas, apoiar em decisões estratégicas de contenção de desemprego e na gestão de programas sociais.
-
-Para empresas, permite calcular a taxas de turnover, a porcentagem de substituição de um funcionário por outro.
-Para investidores, entender o nível de emprego ajuda a retratar o desempenho da economia
+- Para o governo, serve para fiscalizar o cumprimento de obrigações trabalhistas, apoiar em decisões estratégicas de contenção de desemprego e na gestão de programas sociais.
+- Para empresas, permite calcular a taxas de turnover, a porcentagem de substituição de um funcionário por outro.
+- Para investidores, entender o nível de emprego ajuda a retratar o desempenho da economia
 
 O Brasil possui atualmente uma tendência positiva na quantidade de contratos ativos de trabalho formal, mas esse crescimento está desacelerando pois a variação de desligamentos está maior que a de admissões em relação ao ano anterior. Somente em maio de 2023, a variação média de desligamentos em relação ao mesmo período de 2022 foi de 9,0%, enquanto o de admissões foi de 1,7%.
 
