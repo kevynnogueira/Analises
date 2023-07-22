@@ -2,7 +2,7 @@
 
 Essa análise é resultado do 19o desafio [#5dataglowup](https://www.linkedin.com/feed/hashtag/?keywords=5dataglowup&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7087552037063655424) proposto pelo [Heitor Sasaki](https://www.linkedin.com/in/heitorsasaki/) utilizando dados do Programa de Disseminação das Estatisticas do Trabalho.
 
-#### Resultado da análise:
+#### Análise:
 O Sistema do Cadastro Geral de Empregados e Desempregados, CAGED, é uma importante fonte de estatísticas do emprego formal (ou seja, aqueles com carteira assinada) no Brasil.
 
 Para o governo, serve para fiscalizar o cumprimento de obrigações trabalhistas, apoiar em decisões estratégicas de contenção de desemprego e na gestão de programas sociais.
