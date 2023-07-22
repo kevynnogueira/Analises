@@ -5,7 +5,7 @@ Essa análise é resultado do 19o desafio [#5dataglowup](https://www.linkedin.co
 Busquei entender quais dados estavam disponíveis, a importância dos mesmos sob a ótica de mercado e sociedade, e como os resultados de 2023 se relacionam com o contexto econômico.
 
 #### Etapas:
-- Coleta dos dados: Disponíveis nos materiais de divulgação no site do [PDET](http://pdet.mte.gov.br/novo-caged), sendo usada a versão de maio de 2023. Foram usados as tabelas 6, referentes ao comportamento de grupos de atividade econômica, e a 8, referente ao comprotamento por município e Unidade Federativa.
+- Coleta dos dados: Através dos materiais de divulgação no site do [PDET](http://pdet.mte.gov.br/novo-caged), sendo usada a versão de maio de 2023. Foram usados as tabelas 6, referentes ao comportamento de grupos de atividade econômica, e a 8, referente ao comprotamento por município e Unidade Federativa.
 - Análise exploratória e tratamento de dados: Em Python, retornando duas tabelas em formato de fácil utilização.
 - Análise de dados: Em Power BI, buscando respostas às perguntas norteadoras da análise.
 - Análise de mercado: Através de pesquisa na internet através da leitura de opiniões especializadas.
