@@ -8,7 +8,7 @@ Busquei entender quais dados estavam disponíveis, a importância dos mesmos sob
 - Coleta dos dados: Através dos materiais de divulgação no site do [PDET](http://pdet.mte.gov.br/novo-caged), sendo usada a versão de maio de 2023. Foram usados as tabelas 6, referentes ao comportamento de grupos de atividade econômica, e a 8, referente ao comprotamento por município e Unidade Federativa.
 - Análise exploratória e tratamento de dados: Em Python, retornando tabelas em formato de fácil utilização.
 - Análise de dados: Em Power BI, buscando respostas às perguntas norteadoras da análise.
-- Análise de mercado: Através de pesquisa na internet através da leitura de opiniões especializadas.
+- Análise de mercado: Através da leitura de opiniões especializadas disponíveis publicamente na internet.
 
 #### Perguntas norteadoras:
 - Quais os resultados de admissões, desligamentos e a quantidade de contratos ativos para maio de 2023?
