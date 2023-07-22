@@ -4,19 +4,19 @@ Essa análise é resultado do 19o desafio [#5dataglowup](https://www.linkedin.co
 
 Busquei entender quais dados estavam disponíveis, a importância dos mesmos sob a ótica de mercado e sociedade, e como os resultados de 2023 se relacionam com o contexto econômico.
 
-#### Etapas:
+#### ⚙️Etapas:
 - Coleta dos dados: Através dos materiais de divulgação no site do [PDET](http://pdet.mte.gov.br/novo-caged), sendo usada a versão de maio de 2023. Foram usados as tabelas 6, referentes ao comportamento de grupos de atividade econômica, e a 8, referente ao comprotamento por município e Unidade Federativa.
 - Análise exploratória e tratamento de dados: Em Python, retornando tabelas em formato de fácil utilização.
 - Análise de dados: Em Power BI, buscando respostas às perguntas norteadoras da análise.
 - Análise de mercado: Através da leitura de opiniões especializadas disponíveis publicamente na internet.
 
-#### Perguntas norteadoras:
+#### ❓Perguntas norteadoras:
 - Quais os resultados de admissões, desligamentos e a quantidade de contratos ativos para maio de 2023?
 - Há tendência de aumento ou redução de contratos de trabalho ativos ao longo dos anos ou para o futuro?
 - Se há tendência, qual a causa da mesma?
 - Como o mercado reagiu e quais expectativas possui para o futuro?
 
-#### Resultado do desafio:
+#### 🎯Resultado do desafio:
 O Sistema do Cadastro Geral de Empregados e Desempregados, CAGED, é uma importante fonte de estatísticas do emprego formal (ou seja, aqueles com carteira assinada) no Brasil.
 
 - Para o governo, serve para fiscalizar o cumprimento de obrigações trabalhistas, apoiar em decisões estratégicas de contenção de desemprego e na gestão de programas sociais.
@@ -50,7 +50,7 @@ Enquanto os 3 estados nesse período que reduziram em contratações foram:
 Segundo especialistas, esse cenário também é fruto da desaceleração, na margem, da atividade econômica devido aos elevados juros. Ainda assim, o mercado de trabalho se mostra aquecido e deve-se esperar um crescimento moderado.
 
 
-#### Referências:
+#### 📜Referências:
 [1] https://forbes.com.br/carreira/2023/01/caged-brasil-fecha-431-mil-vagas-em-dezembro-mas-saldo-de-2022-e-positivo/
 <br>
 [2] https://agenciabrasil.ebc.com.br/economia/noticia/2023-01/dezembro-fecha-com-saldo-negativo-de-431011-empregos-diz-novo-caged
@@ -68,4 +68,5 @@ Segundo especialistas, esse cenário também é fruto da desaceleração, na mar
 [8] https://blog.genialinvestimentos.com.br/caged-o-que-e/
 <br>
 [9] https://agenciabrasil.ebc.com.br/radioagencia-nacional/acervo/economia/audio/2017-06/trocando-em-miudo-como-os-dados-do-caged-sao-usados-para-nortear-politicas/
+<br>
 [10] http://pdet.mte.gov.br/novo-caged
