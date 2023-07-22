@@ -2,7 +2,21 @@
 
 Essa análise é resultado do 19o desafio [#5dataglowup](https://www.linkedin.com/feed/hashtag/?keywords=5dataglowup&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7087552037063655424) proposto pelo [Heitor Sasaki](https://www.linkedin.com/in/heitorsasaki/) utilizando dados do Programa de Disseminação das Estatisticas do Trabalho.
 
-#### Análise:
+Busquei entender que dados estavam disponíveis, a importância dos mesmos sob a ótica de mercado e sociedade, e como os resultados de 2023 se relacionam com o contexto econômico.
+
+#### Etapas:
+- Coleta dos dados: Os dados estão disponíveis nos materiais de divulgação no site do [PDET](http://pdet.mte.gov.br/novo-caged), sendo usada a versão de maio de 2023. Foram usados as tabelas 6, referentes ao comportamento de grupos de atividade econômica, e a 8, referente ao comprotamento por município e Unidade Federativa.
+- Análise exploratória e tratamento de dados: Realizada em Python, retornando duas tabelas em formato de fácil utilização.
+- Análise de dados: Realizada em Power BI, buscando respostas às perguntas norteadoras da análise.
+- Análise de mercado: feita através de pesquisa na internet através da leitura de opiniões especializadas.
+
+#### Perguntas norteadoras:
+- Quais os resultados de admissões, desligamentos e a quantidade de contratos ativos para maio de 2023?
+- Há tendência de aumento ou redução de contratos de trabalho ativos ao longo dos anos ou para o futuro?
+- Se há tendência, qual a causa da mesma?
+- Como o mercado reagiu e quais expectativas possui para o futuro?
+
+#### Resultado do desafio:
 O Sistema do Cadastro Geral de Empregados e Desempregados, CAGED, é uma importante fonte de estatísticas do emprego formal (ou seja, aqueles com carteira assinada) no Brasil.
 
 - Para o governo, serve para fiscalizar o cumprimento de obrigações trabalhistas, apoiar em decisões estratégicas de contenção de desemprego e na gestão de programas sociais.
@@ -35,8 +49,8 @@ Enquanto os 3 estados nesse período que reduziram em contratações foram:
 
 Segundo especialistas, esse cenário também é fruto da desaceleração, na margem, da atividade econômica devido aos elevados juros. Ainda assim, o mercado de trabalho se mostra aquecido e deve-se esperar um crescimento moderado.
 
-Obs.: O tratamento de dados foi feito em Python, a análise em Power BI. As fontes para os detalhes do mercado estão abaixo:
 
+#### Referências:
 [1] https://forbes.com.br/carreira/2023/01/caged-brasil-fecha-431-mil-vagas-em-dezembro-mas-saldo-de-2022-e-positivo/
 <br>
 [2] https://agenciabrasil.ebc.com.br/economia/noticia/2023-01/dezembro-fecha-com-saldo-negativo-de-431011-empregos-diz-novo-caged
@@ -54,3 +68,4 @@ Obs.: O tratamento de dados foi feito em Python, a análise em Power BI. As font
 [8] https://blog.genialinvestimentos.com.br/caged-o-que-e/
 <br>
 [9] https://agenciabrasil.ebc.com.br/radioagencia-nacional/acervo/economia/audio/2017-06/trocando-em-miudo-como-os-dados-do-caged-sao-usados-para-nortear-politicas/
+[10] http://pdet.mte.gov.br/novo-caged
