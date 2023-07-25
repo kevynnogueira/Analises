@@ -1,6 +1,6 @@
 ### A Break Even Case Study - Clean Clothes Corner Laundry
 
-This analysis is an answer to the first case problem from the first chapter of the book "Introduction to Management Science" from the author Bernard W. Taylor. 
+This analysis is an answer to the first case problem of the first chapter of the book "Introduction to Management Science" from the author Bernard W. Taylor. 
 
 #### 📜Case description:
 When Molly Lai purchased the Clean Clothes Corner Laundry, she thought that because it was in a good location near several high-income neighborhoods, she would automatically generate good business if she improved the laundry's physical appearance. Thus, she initially invested a lot of her cash reserves in remodeling the exterior and interior of the laundry. However, she just about broke even in the year following her acquisition of the laundry, which she didn't feel was a sufficient return, given how hard she had worked. Molly didn't realize that the dry-cleaning business is very competitive and that success is based more on price and quality service,
