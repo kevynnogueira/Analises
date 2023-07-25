@@ -21,3 +21,5 @@ In order to improve her service, Molly is considering purchasing new dry-cleanin
 3. In this condition, she will take 8 months to break even. And then she will have a profit of $1955.0 per month.
 4. Molly's break-even volume will be 2297 itens por month. The profit will be $1112.0 for a monthly volume of 3800.
 5. Consider the largest volume possible in the market should be avoided. Fluctiations in market price, economy, energy bills etc could impact severely the financial results and the projections. Furthermore, it would take 10 months to break-even with a volume of 4700 per month and 12 months to break-even with a volume of 4300 per month. A more conservative approach is advisable.
+
+[Jupyter Notebook with detailed answers and calculations](https://github.com/kevynnogueira/Analises/blob/main/Breakeven/Case1_Chapter1_Bernard%20W.%20Taylor%20-%20Introduction%20to%20Management%20Science-Prentice%20Hall%20(2006).ipynb)
