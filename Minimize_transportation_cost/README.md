@@ -48,3 +48,5 @@ The lowest cost, $34000.0, is achieved when
 0 cars are moved from Atlanta to Jacksonville, 
 100 cars are moved from Birmingham to Nashville and 
 300 cars are moved from Birmingham to Jacksonville
+
+[Jupyter Notebook with detailed answers and calculations](https://github.com/kevynnogueira/Analises/blob/main/Minimize_transportation_cost/Problem26_Chapter1_Bernard%20W.%20Taylor%20-%20Introduction%20to%20Management%20Science-Prentice%20Hall%20(2006).ipynb)
