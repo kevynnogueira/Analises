@@ -24,9 +24,11 @@ pode causar até US$ 130 trilhões de perdas econômicas extras globalmente ao l
 
 Isso demonstra a necessidade urgente de cooperação e ações efetivas para o combate às mudanças climáticas e à mitigação dos seus efeitos.
 
-—
+<img src="https://github.com/kevynnogueira/Analises/blob/main/Extensao_gelo_artico/infografico_extensao_artico.jpeg">
+
+— <br>
 Os dados foram coletados dos repositórios públicos do NOAA, NASA e relatório da ICE-ARC. 
-Os gráficos foram criados com Tableau e o infográfico, com PowerPoint. Todas as referências estão nos comentários.
+Os gráficos foram criados com Tableau e o infográfico, com PowerPoint.
 
 #### 📜Referências:
 [1] [What are the impacts of Arctic sea ice loss?](https://nsidc.org/learn/ask-scientist/what-are-impacts-arctic-sea-ice-loss)
