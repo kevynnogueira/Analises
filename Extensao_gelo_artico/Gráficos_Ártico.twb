@@ -1,0 +1,1856 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20232.23.0611.2007                               -->
+<workbook original-version='18.1' source-build='2023.2.0 (20232.23.0611.2007)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.PatternedLineMarks.true...PatternedLineMarks />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <style-theme name='modern' />
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='GLB.Ts+dSST' inline='true' name='federated.0nlv1720qv30x61dr4k9a0g80r09' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='GLB.Ts+dSST' name='textscan.1l65ttg18d5ibb16izhxv1g8vonj'>
+            <connection class='textscan' directory='C:/Users/kevyn/Downloads' filename='GLB.Ts+dSST.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Dinamizar' type='pivot'>
+          <columns>
+            <column datatype='string' name='Nomes de campo da tabela dinâmica' />
+            <column datatype='real' name='Valores de campo da tabela dinâmica' />
+          </columns>
+          <tag name='Nomes de campo da tabela dinâmica'>
+            <value name='[Apr]' />
+            <value name='[Aug]' />
+            <value name='[Dec]' />
+            <value name='[Feb]' />
+            <value name='[Jan]' />
+            <value name='[Jul]' />
+            <value name='[Jun]' />
+            <value name='[Mar]' />
+            <value name='[May]' />
+            <value name='[Nov]' />
+            <value name='[Oct]' />
+            <value name='[Sep]' />
+          </tag>
+          <groups>
+            <group name='Valores de campo da tabela dinâmica'>
+              <field name='[GLB.Ts+dSST.csv].[Apr]' />
+              <field name='[GLB.Ts+dSST.csv].[Aug]' />
+              <field name='[GLB.Ts+dSST.csv].[Dec]' />
+              <field name='[GLB.Ts+dSST.csv].[Feb]' />
+              <field name='[GLB.Ts+dSST.csv].[Jan]' />
+              <field name='[GLB.Ts+dSST.csv].[Jul]' />
+              <field name='[GLB.Ts+dSST.csv].[Jun]' />
+              <field name='[GLB.Ts+dSST.csv].[Mar]' />
+              <field name='[GLB.Ts+dSST.csv].[May]' />
+              <field name='[GLB.Ts+dSST.csv].[Nov]' />
+              <field name='[GLB.Ts+dSST.csv].[Oct]' />
+              <field name='[GLB.Ts+dSST.csv].[Sep]' />
+            </group>
+          </groups>
+          <relation connection='textscan.1l65ttg18d5ibb16izhxv1g8vonj' name='GLB.Ts+dSST.csv' table='[GLB.Ts+dSST#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='integer' name='Year' ordinal='0' />
+              <column datatype='real' name='Jan' ordinal='1' />
+              <column datatype='real' name='Feb' ordinal='2' />
+              <column datatype='real' name='Mar' ordinal='3' />
+              <column datatype='real' name='Apr' ordinal='4' />
+              <column datatype='real' name='May' ordinal='5' />
+              <column datatype='real' name='Jun' ordinal='6' />
+              <column datatype='real' name='Jul' ordinal='7' />
+              <column datatype='real' name='Aug' ordinal='8' />
+              <column datatype='real' name='Sep' ordinal='9' />
+              <column datatype='real' name='Oct' ordinal='10' />
+              <column datatype='real' name='Nov' ordinal='11' />
+              <column datatype='real' name='Dec' ordinal='12' />
+              <column datatype='real' name='J-D' ordinal='13' />
+              <column datatype='real' name='D-N' ordinal='14' />
+              <column datatype='real' name='DJF' ordinal='15' />
+              <column datatype='real' name='MAM' ordinal='16' />
+              <column datatype='real' name='JJA' ordinal='17' />
+              <column datatype='real' name='SON' ordinal='18' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation type='collection'>
+          <relation name='Dinamizar' type='pivot'>
+            <columns>
+              <column datatype='string' name='Nomes de campo da tabela dinâmica' />
+              <column datatype='real' name='Valores de campo da tabela dinâmica' />
+            </columns>
+            <tag name='Nomes de campo da tabela dinâmica'>
+              <value name='[Apr]' />
+              <value name='[Aug]' />
+              <value name='[Dec]' />
+              <value name='[Feb]' />
+              <value name='[Jan]' />
+              <value name='[Jul]' />
+              <value name='[Jun]' />
+              <value name='[Mar]' />
+              <value name='[May]' />
+              <value name='[Nov]' />
+              <value name='[Oct]' />
+              <value name='[Sep]' />
+            </tag>
+            <groups>
+              <group name='Valores de campo da tabela dinâmica'>
+                <field name='[GLB.Ts+dSST.csv].[Apr]' />
+                <field name='[GLB.Ts+dSST.csv].[Aug]' />
+                <field name='[GLB.Ts+dSST.csv].[Dec]' />
+                <field name='[GLB.Ts+dSST.csv].[Feb]' />
+                <field name='[GLB.Ts+dSST.csv].[Jan]' />
+                <field name='[GLB.Ts+dSST.csv].[Jul]' />
+                <field name='[GLB.Ts+dSST.csv].[Jun]' />
+                <field name='[GLB.Ts+dSST.csv].[Mar]' />
+                <field name='[GLB.Ts+dSST.csv].[May]' />
+                <field name='[GLB.Ts+dSST.csv].[Nov]' />
+                <field name='[GLB.Ts+dSST.csv].[Oct]' />
+                <field name='[GLB.Ts+dSST.csv].[Sep]' />
+              </group>
+            </groups>
+            <relation connection='textscan.1l65ttg18d5ibb16izhxv1g8vonj' name='GLB.Ts+dSST.csv' table='[GLB.Ts+dSST#csv]' type='table'>
+              <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                <column datatype='integer' name='Year' ordinal='0' />
+                <column datatype='real' name='Jan' ordinal='1' />
+                <column datatype='real' name='Feb' ordinal='2' />
+                <column datatype='real' name='Mar' ordinal='3' />
+                <column datatype='real' name='Apr' ordinal='4' />
+                <column datatype='real' name='May' ordinal='5' />
+                <column datatype='real' name='Jun' ordinal='6' />
+                <column datatype='real' name='Jul' ordinal='7' />
+                <column datatype='real' name='Aug' ordinal='8' />
+                <column datatype='real' name='Sep' ordinal='9' />
+                <column datatype='real' name='Oct' ordinal='10' />
+                <column datatype='real' name='Nov' ordinal='11' />
+                <column datatype='real' name='Dec' ordinal='12' />
+                <column datatype='real' name='J-D' ordinal='13' />
+                <column datatype='real' name='D-N' ordinal='14' />
+                <column datatype='real' name='DJF' ordinal='15' />
+                <column datatype='real' name='MAM' ordinal='16' />
+                <column datatype='real' name='JJA' ordinal='17' />
+                <column datatype='real' name='SON' ordinal='18' />
+              </columns>
+            </relation>
+          </relation>
+          <relation name='Dinamizar1' type='pivot'>
+            <columns>
+              <column datatype='string' name='Nomes de campo da tabela dinâmica' />
+              <column datatype='real' name='Valores de campo da tabela dinâmica' />
+            </columns>
+            <tag name='Nomes de campo da tabela dinâmica'>
+              <value name='[Apr]' />
+              <value name='[Aug]' />
+              <value name='[Dec]' />
+              <value name='[Feb]' />
+              <value name='[Jan]' />
+              <value name='[Jul]' />
+              <value name='[Jun]' />
+              <value name='[Mar]' />
+              <value name='[May]' />
+              <value name='[Nov]' />
+              <value name='[Oct]' />
+              <value name='[Sep]' />
+            </tag>
+            <groups>
+              <group name='Valores de campo da tabela dinâmica'>
+                <field name='[NH.Ts+dSST.csv].[Apr]' />
+                <field name='[NH.Ts+dSST.csv].[Aug]' />
+                <field name='[NH.Ts+dSST.csv].[Dec]' />
+                <field name='[NH.Ts+dSST.csv].[Feb]' />
+                <field name='[NH.Ts+dSST.csv].[Jan]' />
+                <field name='[NH.Ts+dSST.csv].[Jul]' />
+                <field name='[NH.Ts+dSST.csv].[Jun]' />
+                <field name='[NH.Ts+dSST.csv].[Mar]' />
+                <field name='[NH.Ts+dSST.csv].[May]' />
+                <field name='[NH.Ts+dSST.csv].[Nov]' />
+                <field name='[NH.Ts+dSST.csv].[Oct]' />
+                <field name='[NH.Ts+dSST.csv].[Sep]' />
+              </group>
+            </groups>
+            <relation connection='textscan.1l65ttg18d5ibb16izhxv1g8vonj' name='NH.Ts+dSST.csv' table='[NH.Ts+dSST#csv]' type='table'>
+              <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                <column datatype='integer' name='Year' ordinal='0' />
+                <column datatype='real' name='Jan' ordinal='1' />
+                <column datatype='real' name='Feb' ordinal='2' />
+                <column datatype='real' name='Mar' ordinal='3' />
+                <column datatype='real' name='Apr' ordinal='4' />
+                <column datatype='real' name='May' ordinal='5' />
+                <column datatype='real' name='Jun' ordinal='6' />
+                <column datatype='real' name='Jul' ordinal='7' />
+                <column datatype='real' name='Aug' ordinal='8' />
+                <column datatype='real' name='Sep' ordinal='9' />
+                <column datatype='real' name='Oct' ordinal='10' />
+                <column datatype='real' name='Nov' ordinal='11' />
+                <column datatype='real' name='Dec' ordinal='12' />
+                <column datatype='real' name='J-D' ordinal='13' />
+                <column datatype='real' name='D-N' ordinal='14' />
+                <column datatype='real' name='DJF' ordinal='15' />
+                <column datatype='real' name='MAM' ordinal='16' />
+                <column datatype='real' name='JJA' ordinal='17' />
+                <column datatype='real' name='SON' ordinal='18' />
+              </columns>
+            </relation>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <cols>
+          <map key='[D-N (NH.Ts+dSST.csv)]' value='[NH.Ts+dSST.csv].[D-N]' />
+          <map key='[D-N]' value='[GLB.Ts+dSST.csv].[D-N]' />
+          <map key='[DJF (NH.Ts+dSST.csv)]' value='[NH.Ts+dSST.csv].[DJF]' />
+          <map key='[DJF]' value='[GLB.Ts+dSST.csv].[DJF]' />
+          <map key='[J-D (NH.Ts+dSST.csv)]' value='[NH.Ts+dSST.csv].[J-D]' />
+          <map key='[J-D]' value='[GLB.Ts+dSST.csv].[J-D]' />
+          <map key='[JJA (NH.Ts+dSST.csv)]' value='[NH.Ts+dSST.csv].[JJA]' />
+          <map key='[JJA]' value='[GLB.Ts+dSST.csv].[JJA]' />
+          <map key='[MAM (NH.Ts+dSST.csv)]' value='[NH.Ts+dSST.csv].[MAM]' />
+          <map key='[MAM]' value='[GLB.Ts+dSST.csv].[MAM]' />
+          <map key='[Nomes de campo da tabela dinâmica (Dinamizar1)]' value='[Dinamizar1].[Nomes de campo da tabela dinâmica]' />
+          <map key='[Nomes de campo da tabela dinâmica]' value='[Dinamizar].[Nomes de campo da tabela dinâmica]' />
+          <map key='[SON (NH.Ts+dSST.csv)]' value='[NH.Ts+dSST.csv].[SON]' />
+          <map key='[SON]' value='[GLB.Ts+dSST.csv].[SON]' />
+          <map key='[Valores de campo da tabela dinâmica (Dinamizar1)]' value='[Dinamizar1].[Valores de campo da tabela dinâmica]' />
+          <map key='[Valores de campo da tabela dinâmica]' value='[Dinamizar].[Valores de campo da tabela dinâmica]' />
+          <map key='[Year (NH.Ts+dSST.csv)]' value='[NH.Ts+dSST.csv].[Year]' />
+          <map key='[Year]' value='[GLB.Ts+dSST.csv].[Year]' />
+        </cols>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[GLB.Ts+dSST.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[NH.Ts+dSST.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[GLB.Ts+dSST.csv]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[GLB.Ts+dSST.csv_B9B1206891A54F30805E05B9BB150C87]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>J-D</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[J-D]</local-name>
+            <parent-name>[GLB.Ts+dSST.csv]</parent-name>
+            <remote-alias>J-D</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[GLB.Ts+dSST.csv_B9B1206891A54F30805E05B9BB150C87]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>D-N</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[D-N]</local-name>
+            <parent-name>[GLB.Ts+dSST.csv]</parent-name>
+            <remote-alias>D-N</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[GLB.Ts+dSST.csv_B9B1206891A54F30805E05B9BB150C87]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DJF</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[DJF]</local-name>
+            <parent-name>[GLB.Ts+dSST.csv]</parent-name>
+            <remote-alias>DJF</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[GLB.Ts+dSST.csv_B9B1206891A54F30805E05B9BB150C87]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MAM</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MAM]</local-name>
+            <parent-name>[GLB.Ts+dSST.csv]</parent-name>
+            <remote-alias>MAM</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[GLB.Ts+dSST.csv_B9B1206891A54F30805E05B9BB150C87]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>JJA</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[JJA]</local-name>
+            <parent-name>[GLB.Ts+dSST.csv]</parent-name>
+            <remote-alias>JJA</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[GLB.Ts+dSST.csv_B9B1206891A54F30805E05B9BB150C87]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SON</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[SON]</local-name>
+            <parent-name>[GLB.Ts+dSST.csv]</parent-name>
+            <remote-alias>SON</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[GLB.Ts+dSST.csv_B9B1206891A54F30805E05B9BB150C87]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Nomes de campo da tabela dinâmica</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Nomes de campo da tabela dinâmica]</local-name>
+            <parent-name>[Dinamizar]</parent-name>
+            <remote-alias>Nomes de campo da tabela dinâmica</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[GLB.Ts+dSST.csv_B9B1206891A54F30805E05B9BB150C87]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Valores de campo da tabela dinâmica</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Valores de campo da tabela dinâmica]</local-name>
+            <parent-name>[Dinamizar]</parent-name>
+            <remote-alias>Valores de campo da tabela dinâmica</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[GLB.Ts+dSST.csv_B9B1206891A54F30805E05B9BB150C87]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year (NH.Ts+dSST.csv)]</local-name>
+            <parent-name>[NH.Ts+dSST.csv]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[NH.Ts+dSST.csv_2086B7800D794355AA832F3098D75C17]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>J-D</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[J-D (NH.Ts+dSST.csv)]</local-name>
+            <parent-name>[NH.Ts+dSST.csv]</parent-name>
+            <remote-alias>J-D</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[NH.Ts+dSST.csv_2086B7800D794355AA832F3098D75C17]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>D-N</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[D-N (NH.Ts+dSST.csv)]</local-name>
+            <parent-name>[NH.Ts+dSST.csv]</parent-name>
+            <remote-alias>D-N</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[NH.Ts+dSST.csv_2086B7800D794355AA832F3098D75C17]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DJF</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[DJF (NH.Ts+dSST.csv)]</local-name>
+            <parent-name>[NH.Ts+dSST.csv]</parent-name>
+            <remote-alias>DJF</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[NH.Ts+dSST.csv_2086B7800D794355AA832F3098D75C17]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MAM</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MAM (NH.Ts+dSST.csv)]</local-name>
+            <parent-name>[NH.Ts+dSST.csv]</parent-name>
+            <remote-alias>MAM</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[NH.Ts+dSST.csv_2086B7800D794355AA832F3098D75C17]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>JJA</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[JJA (NH.Ts+dSST.csv)]</local-name>
+            <parent-name>[NH.Ts+dSST.csv]</parent-name>
+            <remote-alias>JJA</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[NH.Ts+dSST.csv_2086B7800D794355AA832F3098D75C17]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SON</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[SON (NH.Ts+dSST.csv)]</local-name>
+            <parent-name>[NH.Ts+dSST.csv]</parent-name>
+            <remote-alias>SON</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[NH.Ts+dSST.csv_2086B7800D794355AA832F3098D75C17]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Nomes de campo da tabela dinâmica</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Nomes de campo da tabela dinâmica (Dinamizar1)]</local-name>
+            <parent-name>[Dinamizar1]</parent-name>
+            <remote-alias>Nomes de campo da tabela dinâmica</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[NH.Ts+dSST.csv_2086B7800D794355AA832F3098D75C17]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Valores de campo da tabela dinâmica</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Valores de campo da tabela dinâmica (Dinamizar1)]</local-name>
+            <parent-name>[Dinamizar1]</parent-name>
+            <remote-alias>Valores de campo da tabela dinâmica</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[NH.Ts+dSST.csv_2086B7800D794355AA832F3098D75C17]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='real' hidden='true' name='[D-N (NH.Ts+dSST.csv)]' role='measure' type='quantitative' />
+      <column datatype='real' hidden='true' name='[D-N]' role='dimension' type='ordinal' />
+      <column datatype='real' hidden='true' name='[DJF (NH.Ts+dSST.csv)]' role='measure' type='quantitative' />
+      <column datatype='real' hidden='true' name='[DJF]' role='dimension' type='ordinal' />
+      <column datatype='real' hidden='true' name='[J-D (NH.Ts+dSST.csv)]' role='measure' type='quantitative' />
+      <column datatype='real' hidden='true' name='[J-D]' role='dimension' type='ordinal' />
+      <column datatype='real' hidden='true' name='[JJA (NH.Ts+dSST.csv)]' role='measure' type='quantitative' />
+      <column datatype='real' hidden='true' name='[JJA]' role='dimension' type='ordinal' />
+      <column datatype='real' hidden='true' name='[MAM (NH.Ts+dSST.csv)]' role='measure' type='quantitative' />
+      <column datatype='real' hidden='true' name='[MAM]' role='dimension' type='ordinal' />
+      <column caption='Monts' datatype='string' name='[Nomes de campo da tabela dinâmica (Dinamizar1)]' role='dimension' type='nominal' />
+      <column caption='Months' datatype='string' name='[Nomes de campo da tabela dinâmica]' role='dimension' type='nominal' />
+      <column datatype='real' hidden='true' name='[SON (NH.Ts+dSST.csv)]' role='measure' type='quantitative' />
+      <column datatype='real' hidden='true' name='[SON]' role='dimension' type='ordinal' />
+      <column caption='NTH' datatype='real' name='[Valores de campo da tabela dinâmica (Dinamizar1)]' role='measure' type='quantitative' />
+      <column caption='GBL' datatype='real' name='[Valores de campo da tabela dinâmica]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Year (NH.Ts+dSST.csv)]' role='dimension' type='quantitative' />
+      <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Global' datatype='table' name='[__tableau_internal_object_id__].[GLB.Ts+dSST.csv_B9B1206891A54F30805E05B9BB150C87]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='NH.Ts+dSST.csv' datatype='table' name='[__tableau_internal_object_id__].[NH.Ts+dSST.csv_2086B7800D794355AA832F3098D75C17]' role='measure' type='quantitative' />
+      <column-instance column='[Valores de campo da tabela dinâmica (Dinamizar1)]' derivation='Avg' name='[avg:Valores de campo da tabela dinâmica (Dinamizar1):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Valores de campo da tabela dinâmica]' derivation='Avg' name='[avg:Valores de campo da tabela dinâmica:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Valores de campo da tabela dinâmica (Dinamizar1)]' derivation='Sum' name='[sum:Valores de campo da tabela dinâmica (Dinamizar1):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Valores de campo da tabela dinâmica]' derivation='Sum' name='[sum:Valores de campo da tabela dinâmica:qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' rowDisplayCount='1000' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#000000'>
+              <bucket>&quot;[federated.0nlv1720qv30x61dr4k9a0g80r09].[avg:Valores de campo da tabela dinâmica:qk]&quot;</bucket>
+            </map>
+            <map to='#00007f'>
+              <bucket>&quot;[federated.0nlv1720qv30x61dr4k9a0g80r09].[avg:Valores de campo da tabela dinâmica (Dinamizar1):qk]&quot;</bucket>
+            </map>
+            <map to='#1f77b4'>
+              <bucket>&quot;[federated.0nlv1720qv30x61dr4k9a0g80r09].[sum:Valores de campo da tabela dinâmica:qk]&quot;</bucket>
+            </map>
+            <map to='#ff7f0e'>
+              <bucket>&quot;[federated.0nlv1720qv30x61dr4k9a0g80r09].[sum:Valores de campo da tabela dinâmica (Dinamizar1):qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Brasil&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Global' id='GLB.Ts+dSST.csv_B9B1206891A54F30805E05B9BB150C87'>
+            <properties context=''>
+              <relation name='Dinamizar' type='pivot'>
+                <columns>
+                  <column datatype='string' name='Nomes de campo da tabela dinâmica' />
+                  <column datatype='real' name='Valores de campo da tabela dinâmica' />
+                </columns>
+                <tag name='Nomes de campo da tabela dinâmica'>
+                  <value name='[Apr]' />
+                  <value name='[Aug]' />
+                  <value name='[Dec]' />
+                  <value name='[Feb]' />
+                  <value name='[Jan]' />
+                  <value name='[Jul]' />
+                  <value name='[Jun]' />
+                  <value name='[Mar]' />
+                  <value name='[May]' />
+                  <value name='[Nov]' />
+                  <value name='[Oct]' />
+                  <value name='[Sep]' />
+                </tag>
+                <groups>
+                  <group name='Valores de campo da tabela dinâmica'>
+                    <field name='[GLB.Ts+dSST.csv].[Apr]' />
+                    <field name='[GLB.Ts+dSST.csv].[Aug]' />
+                    <field name='[GLB.Ts+dSST.csv].[Dec]' />
+                    <field name='[GLB.Ts+dSST.csv].[Feb]' />
+                    <field name='[GLB.Ts+dSST.csv].[Jan]' />
+                    <field name='[GLB.Ts+dSST.csv].[Jul]' />
+                    <field name='[GLB.Ts+dSST.csv].[Jun]' />
+                    <field name='[GLB.Ts+dSST.csv].[Mar]' />
+                    <field name='[GLB.Ts+dSST.csv].[May]' />
+                    <field name='[GLB.Ts+dSST.csv].[Nov]' />
+                    <field name='[GLB.Ts+dSST.csv].[Oct]' />
+                    <field name='[GLB.Ts+dSST.csv].[Sep]' />
+                  </group>
+                </groups>
+                <relation connection='textscan.1l65ttg18d5ibb16izhxv1g8vonj' name='GLB.Ts+dSST.csv' table='[GLB.Ts+dSST#csv]' type='table'>
+                  <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                    <column datatype='integer' name='Year' ordinal='0' />
+                    <column datatype='real' name='Jan' ordinal='1' />
+                    <column datatype='real' name='Feb' ordinal='2' />
+                    <column datatype='real' name='Mar' ordinal='3' />
+                    <column datatype='real' name='Apr' ordinal='4' />
+                    <column datatype='real' name='May' ordinal='5' />
+                    <column datatype='real' name='Jun' ordinal='6' />
+                    <column datatype='real' name='Jul' ordinal='7' />
+                    <column datatype='real' name='Aug' ordinal='8' />
+                    <column datatype='real' name='Sep' ordinal='9' />
+                    <column datatype='real' name='Oct' ordinal='10' />
+                    <column datatype='real' name='Nov' ordinal='11' />
+                    <column datatype='real' name='Dec' ordinal='12' />
+                    <column datatype='real' name='J-D' ordinal='13' />
+                    <column datatype='real' name='D-N' ordinal='14' />
+                    <column datatype='real' name='DJF' ordinal='15' />
+                    <column datatype='real' name='MAM' ordinal='16' />
+                    <column datatype='real' name='JJA' ordinal='17' />
+                    <column datatype='real' name='SON' ordinal='18' />
+                  </columns>
+                </relation>
+              </relation>
+            </properties>
+          </object>
+          <object caption='NH.Ts+dSST.csv' id='NH.Ts+dSST.csv_2086B7800D794355AA832F3098D75C17'>
+            <properties context=''>
+              <relation name='Dinamizar1' type='pivot'>
+                <columns>
+                  <column datatype='string' name='Nomes de campo da tabela dinâmica' />
+                  <column datatype='real' name='Valores de campo da tabela dinâmica' />
+                </columns>
+                <tag name='Nomes de campo da tabela dinâmica'>
+                  <value name='[Apr]' />
+                  <value name='[Aug]' />
+                  <value name='[Dec]' />
+                  <value name='[Feb]' />
+                  <value name='[Jan]' />
+                  <value name='[Jul]' />
+                  <value name='[Jun]' />
+                  <value name='[Mar]' />
+                  <value name='[May]' />
+                  <value name='[Nov]' />
+                  <value name='[Oct]' />
+                  <value name='[Sep]' />
+                </tag>
+                <groups>
+                  <group name='Valores de campo da tabela dinâmica'>
+                    <field name='[NH.Ts+dSST.csv].[Apr]' />
+                    <field name='[NH.Ts+dSST.csv].[Aug]' />
+                    <field name='[NH.Ts+dSST.csv].[Dec]' />
+                    <field name='[NH.Ts+dSST.csv].[Feb]' />
+                    <field name='[NH.Ts+dSST.csv].[Jan]' />
+                    <field name='[NH.Ts+dSST.csv].[Jul]' />
+                    <field name='[NH.Ts+dSST.csv].[Jun]' />
+                    <field name='[NH.Ts+dSST.csv].[Mar]' />
+                    <field name='[NH.Ts+dSST.csv].[May]' />
+                    <field name='[NH.Ts+dSST.csv].[Nov]' />
+                    <field name='[NH.Ts+dSST.csv].[Oct]' />
+                    <field name='[NH.Ts+dSST.csv].[Sep]' />
+                  </group>
+                </groups>
+                <relation connection='textscan.1l65ttg18d5ibb16izhxv1g8vonj' name='NH.Ts+dSST.csv' table='[NH.Ts+dSST#csv]' type='table'>
+                  <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                    <column datatype='integer' name='Year' ordinal='0' />
+                    <column datatype='real' name='Jan' ordinal='1' />
+                    <column datatype='real' name='Feb' ordinal='2' />
+                    <column datatype='real' name='Mar' ordinal='3' />
+                    <column datatype='real' name='Apr' ordinal='4' />
+                    <column datatype='real' name='May' ordinal='5' />
+                    <column datatype='real' name='Jun' ordinal='6' />
+                    <column datatype='real' name='Jul' ordinal='7' />
+                    <column datatype='real' name='Aug' ordinal='8' />
+                    <column datatype='real' name='Sep' ordinal='9' />
+                    <column datatype='real' name='Oct' ordinal='10' />
+                    <column datatype='real' name='Nov' ordinal='11' />
+                    <column datatype='real' name='Dec' ordinal='12' />
+                    <column datatype='real' name='J-D' ordinal='13' />
+                    <column datatype='real' name='D-N' ordinal='14' />
+                    <column datatype='real' name='DJF' ordinal='15' />
+                    <column datatype='real' name='MAM' ordinal='16' />
+                    <column datatype='real' name='JJA' ordinal='17' />
+                    <column datatype='real' name='SON' ordinal='18' />
+                  </columns>
+                </relation>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+        <relationships>
+          <relationship>
+            <expression op='AND'>
+              <expression op='='>
+                <expression op='[Year]' />
+                <expression op='[Year (NH.Ts+dSST.csv)]' />
+              </expression>
+              <expression op='='>
+                <expression op='[Nomes de campo da tabela dinâmica]' />
+                <expression op='[Nomes de campo da tabela dinâmica (Dinamizar1)]' />
+              </expression>
+            </expression>
+            <first-end-point object-id='GLB.Ts+dSST.csv_B9B1206891A54F30805E05B9BB150C87' />
+            <second-end-point object-id='NH.Ts+dSST.csv_2086B7800D794355AA832F3098D75C17' />
+          </relationship>
+        </relationships>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='N_seaice_extent_daily_v3.0' inline='true' name='federated.0ntgggq0a888l71eocvqp1q07wde' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='N_seaice_extent_daily_v3.0' name='textscan.11f9yqf1srmuwn1dt9m7x1utblvp'>
+            <connection class='textscan' directory='C:/Users/kevyn/Downloads' filename='N_seaice_extent_daily_v3.0.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation all='true' name='N_seaice_extent_daily_v3.0.csv+' type='union'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=',' />
+          <relation connection='textscan.11f9yqf1srmuwn1dt9m7x1utblvp' name='N_seaice_extent_daily_v3.0.csv' table='[N_seaice_extent_daily_v3.0#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='integer' name='Year' ordinal='0' />
+              <column datatype='integer' name='Month' ordinal='1' />
+              <column datatype='integer' name='Day' ordinal='2' />
+              <column datatype='real' name='Extent' ordinal='3' />
+              <column datatype='real' name='Missing' ordinal='4' />
+              <column datatype='string' name='Source Data' ordinal='5' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation all='true' name='N_seaice_extent_daily_v3.0.csv+' type='union'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=',' />
+          <relation connection='textscan.11f9yqf1srmuwn1dt9m7x1utblvp' name='N_seaice_extent_daily_v3.0.csv' table='[N_seaice_extent_daily_v3.0#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='integer' name='Year' ordinal='0' />
+              <column datatype='integer' name='Month' ordinal='1' />
+              <column datatype='integer' name='Day' ordinal='2' />
+              <column datatype='real' name='Extent' ordinal='3' />
+              <column datatype='real' name='Missing' ordinal='4' />
+              <column datatype='string' name='Source Data' ordinal='5' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[N_seaice_extent_daily_v3.0.csv+]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[N_seaice_extent_daily_v3.0.csv+]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[N_seaice_extent_daily_v3.0.csv_CA976D0F616B4E229799F8399001C5D9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Month</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Month]</local-name>
+            <parent-name>[N_seaice_extent_daily_v3.0.csv+]</parent-name>
+            <remote-alias>Month</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[N_seaice_extent_daily_v3.0.csv_CA976D0F616B4E229799F8399001C5D9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Day</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Day]</local-name>
+            <parent-name>[N_seaice_extent_daily_v3.0.csv+]</parent-name>
+            <remote-alias>Day</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[N_seaice_extent_daily_v3.0.csv_CA976D0F616B4E229799F8399001C5D9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Extent</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Extent]</local-name>
+            <parent-name>[N_seaice_extent_daily_v3.0.csv+]</parent-name>
+            <remote-alias>Extent</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[N_seaice_extent_daily_v3.0.csv_CA976D0F616B4E229799F8399001C5D9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Missing</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Missing]</local-name>
+            <parent-name>[N_seaice_extent_daily_v3.0.csv+]</parent-name>
+            <remote-alias>Missing</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[N_seaice_extent_daily_v3.0.csv_CA976D0F616B4E229799F8399001C5D9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Source Data</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Source Data]</local-name>
+            <parent-name>[N_seaice_extent_daily_v3.0.csv+]</parent-name>
+            <remote-alias>Source Data</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[N_seaice_extent_daily_v3.0.csv_CA976D0F616B4E229799F8399001C5D9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Table Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Table Name]</local-name>
+            <parent-name>[N_seaice_extent_daily_v3.0.csv+]</parent-name>
+            <remote-alias>Table Name</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[N_seaice_extent_daily_v3.0.csv_CA976D0F616B4E229799F8399001C5D9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Date' datatype='date' name='[Calculation_652177576401674241]' role='dimension' type='ordinal'>
+        <calculation class='tableau' formula='MAKEDATE(Year,Month,Day)' />
+      </column>
+      <column aggregation='Sum' caption='Período' datatype='integer' default-format='*mmm' name='[Calculation_652177576402882562]' role='dimension' type='quantitative'>
+        <calculation class='tableau' formula='DATEPART(&apos;dayofyear&apos;,[Calculation_652177576401674241])' />
+      </column>
+      <column caption='Mediana entre 1981 e 2010' datatype='real' name='[Calculation_682295398936997888]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='MEDIAN(IF[Year] &gt;= 1981&#13;&#10;&#13;&#10;AND [Year] &lt;= 2010&#13;&#10;&#13;&#10;THEN [Extent]&#13;&#10;&#13;&#10;&#13;&#10;END )' />
+      </column>
+      <column caption='Mediana de 2012' datatype='real' name='[Calculation_682295398937952258]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='MEDIAN(&#13;&#10;    IF [Year] &gt;= 2012 AND [Year] &lt;= 2012 &#13;&#10;    THEN [Extent]&#13;&#10;    END &#13;&#10;)' />
+      </column>
+      <column caption='Mediana de 2023' datatype='real' name='[Calculation_682295398946852868]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='MEDIAN(&#13;&#10;    IF [Year] &gt;= 2023 AND [Year] &lt;= 2023&#13;&#10;    THEN [Extent]&#13;&#10;    END &#13;&#10;)' />
+      </column>
+      <column caption='Valor para o ano selecionado' datatype='integer' name='[Calculation_757167742791065600]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='if [Conjunto Year] then [Year] END' />
+      </column>
+      <column aggregation='Sum' datatype='integer' name='[Day]' role='dimension' type='ordinal' />
+      <column datatype='real' name='[Extent]' role='measure' type='quantitative' />
+      <column aggregation='Sum' datatype='integer' name='[Month]' role='dimension' type='ordinal' />
+      <column datatype='string' hidden='true' name='[Source Data]' role='dimension' type='nominal' />
+      <column datatype='string' hidden='true' name='[Table Name]' role='dimension' type='nominal' />
+      <column aggregation='Sum' datatype='integer' name='[Year]' role='dimension' type='ordinal' />
+      <_.fcp.ObjectModelTableType.true...column caption='N_seaice_extent_daily_v3.0.csv' datatype='table' name='[__tableau_internal_object_id__].[N_seaice_extent_daily_v3.0.csv_CA976D0F616B4E229799F8399001C5D9]' role='measure' type='quantitative' />
+      <column-instance column='[Conjunto Year]' derivation='InOut' name='[io:Conjunto Year:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Extent]' derivation='Median' name='[med:Extent:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Extent]' derivation='Sum' name='[sum:Extent:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_682295398936997888]' derivation='User' name='[usr:Calculation_682295398936997888:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_682295398937952258]' derivation='User' name='[usr:Calculation_682295398937952258:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_682295398946852868]' derivation='User' name='[usr:Calculation_682295398946852868:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_652177576401674241]' derivation='Year' name='[yr:Calculation_652177576401674241:ok]' pivot='key' type='ordinal' />
+      <group caption='Conjunto Year' name='[Conjunto Year]' name-style='unqualified' user:ui-builder='filter-group'>
+        <groupfilter function='member' level='[Year]' member='2023' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+      </group>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' rowDisplayCount='100' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#000000'>
+              <bucket>&quot;[federated.0ntgggq0a888l71eocvqp1q07wde].[usr:Calculation_682295398936997888:qk]&quot;</bucket>
+            </map>
+            <map to='#0000ff'>
+              <bucket>&quot;[federated.0ntgggq0a888l71eocvqp1q07wde].[usr:Calculation_682295398946852868:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0ntgggq0a888l71eocvqp1q07wde]&quot;</bucket>
+            </map>
+            <map to='#aa0000'>
+              <bucket>&quot;[federated.0ntgggq0a888l71eocvqp1q07wde].[usr:Calculation_682295398937952258:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0ntgggq0a888l71eocvqp1q07wde].[med:Extent:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0ntgggq0a888l71eocvqp1q07wde].[sum:Extent:qk]&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[yr:Calculation_652177576401674241:ok]' type='palette'>
+            <map to='#499894'>
+              <bucket>1985</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>2005</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>1997</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>2017</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>1981</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>2001</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>2021</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>1989</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>2009</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>1986</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>2006</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>1982</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>2002</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>2022</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>1995</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>2015</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>1978</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>1998</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>2018</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>1993</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>2013</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>1983</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>2003</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>2023</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>1990</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>2010</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>1991</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>2011</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>1994</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>2014</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>1996</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>2016</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>1987</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>2007</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>1984</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>2004</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>1979</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>1999</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>2019</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>1992</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>2012</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>1988</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>2008</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>1980</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>2000</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>2020</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[io:Conjunto Year:nk]' type='palette'>
+            <map to='#49525e'>
+              <bucket>true</bucket>
+            </map>
+            <map to='#d5d5d5'>
+              <bucket>false</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Brasil&quot;' />
+      </semantic-values>
+      <field-sort-info field-sort-order-type='custom-order'>
+        <field-sort-custom-order field='Year' />
+        <field-sort-custom-order field='Month' />
+        <field-sort-custom-order field='Day' />
+        <field-sort-custom-order field='Calculation_652177576402882562' />
+        <field-sort-custom-order field='Extent' />
+        <field-sort-custom-order field='Missing' />
+        <field-sort-custom-order field='Calculation_652177576401674241' />
+        <field-sort-custom-order field='Source Data' />
+        <field-sort-custom-order field='Table Name' />
+        <field-sort-custom-order field='Geometry (generated)' />
+        <field-sort-custom-order field='Latitude (generated)' />
+        <field-sort-custom-order field='Longitude (generated)' />
+        <field-sort-custom-order field=':Measure Names' />
+        <field-sort-custom-order field='Multiple Values' />
+      </field-sort-info>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='N_seaice_extent_daily_v3.0.csv' id='N_seaice_extent_daily_v3.0.csv_CA976D0F616B4E229799F8399001C5D9'>
+            <properties context=''>
+              <relation all='true' name='N_seaice_extent_daily_v3.0.csv+' type='union'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=',' />
+                <relation connection='textscan.11f9yqf1srmuwn1dt9m7x1utblvp' name='N_seaice_extent_daily_v3.0.csv' table='[N_seaice_extent_daily_v3.0#csv]' type='table'>
+                  <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                    <column datatype='integer' name='Year' ordinal='0' />
+                    <column datatype='integer' name='Month' ordinal='1' />
+                    <column datatype='integer' name='Day' ordinal='2' />
+                    <column datatype='real' name='Extent' ordinal='3' />
+                    <column datatype='real' name='Missing' ordinal='4' />
+                    <column datatype='string' name='Source Data' ordinal='5' />
+                  </columns>
+                </relation>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Extensão'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='0' fontsize='14'>Extensão diária de gelo ártico</run>
+            <run fontalignment='0'>
+Mostrando a extensão de gelo oceânico ártico em milhões de quilômetros quadrados. Última atualização: 05/08/2023</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='N_seaice_extent_daily_v3.0' name='federated.0ntgggq0a888l71eocvqp1q07wde' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0ntgggq0a888l71eocvqp1q07wde'>
+            <column caption='Date' datatype='date' name='[Calculation_652177576401674241]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='MAKEDATE(Year,Month,Day)' />
+            </column>
+            <column aggregation='Sum' caption='Período' datatype='integer' default-format='*mmm' name='[Calculation_652177576402882562]' role='dimension' type='quantitative'>
+              <calculation class='tableau' formula='DATEPART(&apos;dayofyear&apos;,[Calculation_652177576401674241])' />
+            </column>
+            <column caption='Mediana de 2012' datatype='real' name='[Calculation_682295398937952258]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='MEDIAN(&#13;&#10;    IF [Year] &gt;= 2012 AND [Year] &lt;= 2012 &#13;&#10;    THEN [Extent]&#13;&#10;    END &#13;&#10;)' />
+            </column>
+            <column caption='Valor para o ano selecionado' datatype='integer' name='[Calculation_757167742791065600]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='if [Conjunto Year] then [Year] END' />
+            </column>
+            <column aggregation='Sum' datatype='integer' name='[Day]' role='dimension' type='ordinal' />
+            <column datatype='real' name='[Extent]' role='measure' type='quantitative' />
+            <column aggregation='Sum' datatype='integer' name='[Month]' role='dimension' type='ordinal' />
+            <column aggregation='Sum' datatype='integer' name='[Year]' role='dimension' type='ordinal' />
+            <column-instance column='[Calculation_652177576401674241]' derivation='Day' name='[dy:Calculation_652177576401674241:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Conjunto Year]' derivation='InOut' name='[io:Conjunto Year:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Extent]' derivation='Median' name='[med:Extent:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_652177576401674241]' derivation='Month' name='[mn:Calculation_652177576401674241:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Calculation_652177576402882562]' derivation='None' name='[none:Calculation_652177576402882562:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_757167742791065600]' derivation='None' name='[none:Calculation_757167742791065600:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_682295398937952258]' derivation='User' name='[usr:Calculation_682295398937952258:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_652177576401674241]' derivation='Year' name='[yr:Calculation_652177576401674241:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Calculation_652177576401674241]' derivation='Year' name='[yr:Calculation_652177576401674241:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0ntgggq0a888l71eocvqp1q07wde].[io:Conjunto Year:nk]'>
+            <groupfilter function='level-members' level='[io:Conjunto Year:nk]' />
+          </filter>
+          <slices>
+            <column>[federated.0ntgggq0a888l71eocvqp1q07wde].[io:Conjunto Year:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0ntgggq0a888l71eocvqp1q07wde].[none:Calculation_652177576402882562:qk]' field-type='quantitative' major-origin='1' major-spacing='60' max='366' min='1' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.0ntgggq0a888l71eocvqp1q07wde].[usr:Calculation_682295398937952258:qk]' field-type='quantitative' fold='true' scope='rows' synchronized='true' type='space' />
+            <format attr='title' class='0' field='[federated.0ntgggq0a888l71eocvqp1q07wde].[med:Extent:qk]' scope='rows' value='Extensão (milhões de km2)' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='vertical-align' field='[federated.0ntgggq0a888l71eocvqp1q07wde].[none:Calculation_757167742791065600:qk]' value='top' />
+            <format attr='font-size' field='[federated.0ntgggq0a888l71eocvqp1q07wde].[none:Calculation_757167742791065600:qk]' value='12' />
+          </style-rule>
+          <style-rule element='field-labels-spanner'>
+            <format attr='separator' scope='cols' value='/' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='display' field='[federated.0ntgggq0a888l71eocvqp1q07wde].[dy:Calculation_652177576401674241:ok]' value='false' />
+            <format attr='text-format' field='[federated.0ntgggq0a888l71eocvqp1q07wde].[mn:Calculation_652177576401674241:ok]' value='iLLLL' />
+            <format attr='text-align' field='[federated.0ntgggq0a888l71eocvqp1q07wde].[mn:Calculation_652177576401674241:ok]' value='auto' />
+            <format attr='text-format' field='[federated.0ntgggq0a888l71eocvqp1q07wde].[none:Calculation_652177576402882562:qk]' value='' />
+            <format attr='font-size' field='[federated.0ntgggq0a888l71eocvqp1q07wde].[med:Extent:qk]' value='14' />
+            <format attr='font-size' field='[federated.0ntgggq0a888l71eocvqp1q07wde].[none:Calculation_652177576402882562:qk]' value='14' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0ntgggq0a888l71eocvqp1q07wde].[yr:Calculation_652177576401674241:qk]' palette='tableau-blue-light' type='interpolated' />
+            <encoding attr='size' field='[federated.0ntgggq0a888l71eocvqp1q07wde].[io:Conjunto Year:nk]' field-type='nominal' max-size='1' min-size='0.11666' reverse='true' type='catsize' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='omit-on-special' value='true' />
+            <format attr='break-on-special' value='true' />
+            <format attr='show-null-value-warning' value='false' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='line-pattern-only' scope='cols' value='solid' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='line-visibility' scope='cols' value='on' />
+            <format attr='line-pattern-only' scope='cols' value='solid' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='div-level' scope='cols' value='0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='0.21053512394428253' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0ntgggq0a888l71eocvqp1q07wde].[med:Extent:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.0ntgggq0a888l71eocvqp1q07wde].[io:Conjunto Year:nk]' />
+              <size column='[federated.0ntgggq0a888l71eocvqp1q07wde].[io:Conjunto Year:nk]' />
+              <text column='[federated.0ntgggq0a888l71eocvqp1q07wde].[none:Calculation_757167742791065600:qk]' />
+              <lod column='[federated.0ntgggq0a888l71eocvqp1q07wde].[yr:Calculation_652177576401674241:ok]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.36093646287918091' />
+                <format attr='mark-labels-mode' value='line-ends' />
+                <format attr='mark-labels-cull' value='false' />
+                <format attr='mark-labels-line-first' value='false' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0ntgggq0a888l71eocvqp1q07wde].[usr:Calculation_682295398937952258:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='1.5052486658096313' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='mark-color' value='#991605' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0ntgggq0a888l71eocvqp1q07wde].[med:Extent:qk] + [federated.0ntgggq0a888l71eocvqp1q07wde].[usr:Calculation_682295398937952258:qk])</rows>
+        <cols>[federated.0ntgggq0a888l71eocvqp1q07wde].[none:Calculation_652177576402882562:qk]</cols>
+      </table>
+      <simple-id uuid='{8B8E0F6C-FAA5-41D3-9F9A-51238231F9E7}' />
+    </worksheet>
+    <worksheet name='Temperatura_anomalia'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='0' fontsize='14'>Anomalias de temperatura no hemisfério norte e globo</run>
+            <run fontalignment='0'>&#10;Última atualização: 05/08/2023</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='GLB.Ts+dSST' name='federated.0nlv1720qv30x61dr4k9a0g80r09' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0nlv1720qv30x61dr4k9a0g80r09'>
+            <column caption='NTH' datatype='real' name='[Valores de campo da tabela dinâmica (Dinamizar1)]' role='measure' type='quantitative' />
+            <column caption='GBL' datatype='real' name='[Valores de campo da tabela dinâmica]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Valores de campo da tabela dinâmica (Dinamizar1)]' derivation='Avg' name='[avg:Valores de campo da tabela dinâmica (Dinamizar1):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Valores de campo da tabela dinâmica]' derivation='Avg' name='[avg:Valores de campo da tabela dinâmica:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0nlv1720qv30x61dr4k9a0g80r09].[none:Year:qk]' field-type='quantitative' major-origin='0' major-spacing='20' max='2023' min='1880' minor-origin='0' minor-spacing='10' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.0nlv1720qv30x61dr4k9a0g80r09].[avg:Valores de campo da tabela dinâmica (Dinamizar1):qk]' field-type='quantitative' fold='true' scope='rows' synchronized='true' type='space' />
+            <format attr='title' class='0' field='[federated.0nlv1720qv30x61dr4k9a0g80r09].[avg:Valores de campo da tabela dinâmica:qk]' scope='rows' value='Diferença da temperatura média (oC)' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='font-size' field='[federated.0nlv1720qv30x61dr4k9a0g80r09].[avg:Valores de campo da tabela dinâmica:qk]' value='10' />
+            <format attr='font-size' field='[federated.0nlv1720qv30x61dr4k9a0g80r09].[none:Year:qk]' value='10' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0nlv1720qv30x61dr4k9a0g80r09].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <_.fcp.PatternedLineMarks.true...format attr='mark-line-pattern' value='solid' />
+                <format attr='line-interpolation' value='linear' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0nlv1720qv30x61dr4k9a0g80r09].[avg:Valores de campo da tabela dinâmica:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.0nlv1720qv30x61dr4k9a0g80r09].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='line-interpolation' value='linear' />
+                <_.fcp.PatternedLineMarks.true...format attr='mark-line-pattern' value='dotted' />
+                <format attr='size' value='0.66966849565505981' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0nlv1720qv30x61dr4k9a0g80r09].[avg:Valores de campo da tabela dinâmica (Dinamizar1):qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.0nlv1720qv30x61dr4k9a0g80r09].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1' />
+                <_.fcp.PatternedLineMarks.true...format attr='mark-line-pattern' value='solid' />
+                <format attr='line-interpolation' value='linear' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0nlv1720qv30x61dr4k9a0g80r09].[avg:Valores de campo da tabela dinâmica:qk] + [federated.0nlv1720qv30x61dr4k9a0g80r09].[avg:Valores de campo da tabela dinâmica (Dinamizar1):qk])</rows>
+        <cols>[federated.0nlv1720qv30x61dr4k9a0g80r09].[none:Year:qk]</cols>
+      </table>
+      <simple-id uuid='{34F7181B-0D42-44CA-A9B4-35760E76E04F}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' show-side-pane='false' source-height='63'>
+    <window class='worksheet' name='Extensão'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card size='16' type='pages' />
+            <card size='128' type='marks' />
+            <card size='28' type='filters' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='36'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0ntgggq0a888l71eocvqp1q07wde].[:Measure Names]</field>
+            <field>[federated.0ntgggq0a888l71eocvqp1q07wde].[Conjunto Year]</field>
+            <field>[federated.0ntgggq0a888l71eocvqp1q07wde].[dy:Calculation_652177576401674241:ok]</field>
+            <field>[federated.0ntgggq0a888l71eocvqp1q07wde].[io:Conjunto Year:nk]</field>
+            <field>[federated.0ntgggq0a888l71eocvqp1q07wde].[none:Calculation_652177576402882562:qk]</field>
+            <field>[federated.0ntgggq0a888l71eocvqp1q07wde].[none:Day:ok]</field>
+            <field>[federated.0ntgggq0a888l71eocvqp1q07wde].[none:Month:ok]</field>
+            <field>[federated.0ntgggq0a888l71eocvqp1q07wde].[none:Year:ok]</field>
+            <field>[federated.0ntgggq0a888l71eocvqp1q07wde].[yr:Calculation_652177576401674241:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{9CC8AD18-072C-4244-9F98-43A828433F10}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Temperatura_anomalia'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0nlv1720qv30x61dr4k9a0g80r09].[none:Nomes de campo da tabela dinâmica:nk]</field>
+            <field>[federated.0nlv1720qv30x61dr4k9a0g80r09].[none:Year:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{CA3FA9EC-25A8-4A8B-B2BE-0B31DD2D4893}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Extensão' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Temperatura_anomalia' width='192'>
+      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
+      AElFTkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>
