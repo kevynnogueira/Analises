@@ -13,7 +13,7 @@ in order to meet demand while minimizing the transport costs. Develop a mathemat
 #### 📜Answers:
 Two methods were used to find the answer:
 - Method one: In this method, a manual approach was used to find the scenario of transportation that returns the lowest total cost for the combination of each route. No optimization packages were used.
-- Method two: In this method, PuLP, a optimization package, was used. It saves time of resolution and reduces the time spent writhing code.
+- Method two: In this method, PuLP, a optimization package, was used. It saves time of resolution and reduces the time spent writing code.
 
 ---
 The problem can be modelled considering each possible route as a variable and implementing constraints based on the capacity of each agency.
