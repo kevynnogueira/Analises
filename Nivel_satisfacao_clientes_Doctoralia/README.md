@@ -7,6 +7,7 @@ O projeto foi desenvolvido por:
 - [Thiago Mendes](https://www.linkedin.com/in/thiagomen)
 - [Vinicius Bruno](https://www.linkedin.com/in/vinicius-braga-bruno-9b120419a)
 
+A apresentação pode ser assistida no [Youtube](https://www.youtube.com/watch?v=UX8BVNyedhU) da Dados de Fato.
 
 #### ⚙️Etapas:
 - Imersão no contexto da empresa: busca de informações da empresa, seus produtos e serviços.
