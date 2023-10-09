@@ -9,3 +9,5 @@ Repositório de análises feitas por mim. Cada pasta contém uma análise difere
 [Break even analysis (em Inglês)](https://github.com/kevynnogueira/Analises/tree/main/Breakeven)
 <br>
 [Minimizing the cost of transportation (em Inglês)](https://github.com/kevynnogueira/Analises/tree/main/Minimize_transportation_cost)
+<br>
+[Análise do nível de satisfação de cliente da Doctoralia](https://github.com/kevynnogueira/Analises/tree/main/Nivel_satisfacao_clientes_Doctoralia)
