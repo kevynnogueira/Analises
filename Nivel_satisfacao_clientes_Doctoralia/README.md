@@ -12,7 +12,7 @@ A apresentação pode ser assistida no [Youtube](https://www.youtube.com/watch?v
 #### ⚙️Etapas:
 - Imersão no contexto da empresa: busca de informações da empresa, seus produtos e serviços.
 - Coleta dos dados: coleta de dados das plataformas [Google reviews](https://www.google.com/maps/place/Doctoralia+Brasil/@-25.4346962,-49.2836131,17z/data=!3m1!4b1!4m6!3m5!1s0x94dce473651f6a7d:0x44224345aa615099!8m2!3d-25.4346963!4d-49.2787422!16s%2Fg%2F11d_7tzh65?entry=ttu), [Google Play](https://play.google.com/store/apps/details?id=br.com.doctoralia&hl=en_US) e [Reclame Aqui](https://www.reclameaqui.com.br/empresa/doctoralia/) utilizando Python.
-- Tratamento de dados: tratamento de dados através de Python e Excel, padronizando datas e identificando gênero dos usuários que avaliaram a empresa através da bases de dados da [Brasil.io](https://brasil.io/dataset/genero-nomes/nomes/).
+- Tratamento de dados: tratamento de dados através de Python e Excel, padronizando datas e identificando gênero dos usuários que avaliaram a empresa através da base de dados da [Brasil.io](https://brasil.io/dataset/genero-nomes/nomes/).
 - Análise de dados: Em Python, para responder as perguntas norteadoras, e em Excel, para análise aprofundada das avaliações escritas.
 - Interpretação de resultados: Brainstorming para entender os resultados e formular ações de melhoria do nível de satisfação e de mitigação de problemas.
 
